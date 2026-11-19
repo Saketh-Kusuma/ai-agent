@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <linearGradient id="lavender" x1="250" y1="260" x2="760" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".48" stop-color="#E9DFFF"/>
+      <stop offset="1" stop-color="#9870FF"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="430" y1="170" x2="620" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8A5FF"/>
+      <stop offset="1" stop-color="#7540E8"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="330" y1="600" x2="650" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".62" stop-color="#E7DBFF"/>
+      <stop offset="1" stop-color="#A47AFF"/>
+    </linearGradient>
+    <linearGradient id="ear" x1="340" y1="390" x2="685" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A77BFF"/>
+      <stop offset="1" stop-color="#E7D9FF"/>
+    </linearGradient>
+    <filter id="shadow" x="150" y="120" width="730" height="820" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+  <!-- subtle grounding shadow -->
+  <ellipse cx="512" cy="884" rx="285" ry="24" fill="#6E40D9" opacity=".12" filter="url(#shadow)"/>
+  <!-- antenna -->
+  <path d="M512 230V283" stroke="#8C5AF2" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="512" cy="190" r="43" fill="url(#purple)"/>
+  <ellipse cx="497" cy="174" rx="12" ry="9" transform="rotate(-35 497 174)" fill="white" opacity=".58"/>
+  <!-- side ear pieces -->
+  <path d="M365 365C322 376 299 414 299 460C299 505 322 542 365 553L390 518V400L365 365Z" fill="url(#ear)"/>
+  <path d="M659 365C702 376 725 414 725 460C725 505 702 542 659 553L634 518V400L659 365Z" fill="url(#ear)"/>
+  <!-- robot head shell -->
+  <path d="M512 266C397 266 319 338 319 445C319 546 392 607 512 607C632 607 705 546 705 445C705 338 627 266 512 266Z" fill="url(#lavender)" stroke="#171326" stroke-width="12"/>
+  <!-- face screen -->
+  <path d="M512 306C414 306 350 363 350 449C350 526 411 570 512 570C613 570 674 526 674 449C674 363 610 306 512 306Z" fill="#171326"/>
+  <!-- happy eyes and mouth -->
+  <path d="M425 429C438 405 461 405 475 429" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"/>
+  <path d="M550 429C564 405 587 405 600 429" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"/>
+  <path d="M486 453C500 471 524 471 538 453" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M412 456L426 458" stroke="#8D4EF0" stroke-width="12" stroke-linecap="round"/>
+  <path d="M598 458L612 456" stroke="#8D4EF0" stroke-width="12" stroke-linecap="round"/>
+  <!-- arms / paws -->
+  <path d="M374 532C337 514 306 529 294 558C281 589 300 623 336 633L389 647L419 600L374 532Z" fill="url(#lavender)" stroke="#171326" stroke-width="11" stroke-linejoin="round"/>
+  <path d="M650 532C687 514 718 529 730 558C743 589 724 623 688 633L635 647L605 600L650 532Z" fill="url(#lavender)" stroke="#171326" stroke-width="11" stroke-linejoin="round"/>
+  <!-- cloud body -->
+  <path d="M292 805C235 805 194 765 194 710C194 658 232 618 284 615C300 564 344 535 397 544C425 501 468 480 512 480C562 480 604 507 628 550C682 535 730 562 745 612C795 616 830 656 830 708C830 764 788 805 731 805H292Z" fill="url(#cloud)" stroke="#171326" stroke-width="12" stroke-linejoin="round"/>
+  <!-- code mark -->
+  <path d="M454 638L407 680L454 720" stroke="#5D36C9" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M570 638L617 680L570 720" stroke="#5D36C9" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M530 625L494 735" stroke="#5D36C9" stroke-width="21" stroke-linecap="round"/>
+  <!-- sparkles -->
+  <path d="M245 398C250 419 259 428 280 433C259 438 250 447 245 468C240 447 231 438 210 433C231 428 240 419 245 398Z" fill="#A77AFF"/>
+  <path d="M780 505C785 526 794 535 815 540C794 545 785 554 780 575C775 554 766 545 745 540C766 535 775 526 780 505Z" fill="#A77AFF"/>
+  <path d="M744 250L730 282" stroke="#9A66F5" stroke-width="19" stroke-linecap="round"/>
+  <path d="M803 294L774 314" stroke="#9A66F5" stroke-width="19" stroke-linecap="round"/>
+</svg>
